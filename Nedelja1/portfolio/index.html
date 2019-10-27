@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Портфолио | Перановић Цвијан</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nikola Mihajlović | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    <header></header>
+  <header>
+    <nav>
+      <ul>
+        <a href="#home" class="home" title="Home">
+          <li class="material-icons">home</li>
+        </a>
+        <a href="#projects" title="Projects">
+          <li class="material-icons">web</li>
+        </a>
+        <a href="#contact" title="Contact">
+          <li class="material-icons">person_outline</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <h1>Nikola Mihajlović</h1>
+      <p>Philosophy student looking to get into web development.<br />Interests include: JavaScript, social theory, music.</p>
+      <h2>Education</h2>
+      <ul>
+        <li><b>University of Belgrade, Faculty of Philosophy</b>, no degree (2013 - )
+          <div>Philosophy Department</div>
+        </li>
+        <li><b>Mladenovac Gymnasium</b> (2009 - 2013)
+          <div>Natural Sciences and Mathematics Department</div>
+        </li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="portfolio">
+        <figure>
+          <a href="https://github.com/wnikola/ITBootcamp-Domaci/tree/master/Nedelja1/portfolio" target="_blank"><img src="assets/images/portfolio.png" alt="Portfolio thumbnail" class="thumbnail"></a>
+          <figcaption><a href="https://github.com/wnikola/ITBootcamp-Domaci/tree/master/Nedelja1/portfolio" target="_blank">Personal portfolio page</a></figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/images/placeholder.png" alt="Placeholder image"></a>
+          <figcaption><a href="#">Placeholder</figcaption></a>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/images/placeholder.png" alt="Placeholder image"></a>
+          <figcaption><a href="#">Placeholder</figcaption></a>
+        </figure>
+      </div>
+      <div class="portfolio">
+        <figure>
+          <a href="#"><img src="assets/images/placeholder.png" alt="Placeholder image"></a>
+          <figcaption><a href="#">Placeholder</figcaption></a>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/images/placeholder.png" alt="Placeholder image"></a>
+          <figcaption><a href="#">Placeholder</figcaption></a>
+        </figure>
+        <figure>
+          <a href="#"><img src="assets/images/placeholder.png" alt="Placeholder image"></a>
+          <figcaption><a href="#">Placeholder</figcaption></a>
+        </figure>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:mihajlovicn44@gmail.com">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" cols="50" rows="10" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="ico">
+      <a href="https://github.com/wnikola"><img src="assets/images/github_ico.png" alt="Github icon"></a>
+    </div>
+    <span>&copy; Nikola Mihajlović 2019</span>
+  </footer>
 </body>
+
 </html>
