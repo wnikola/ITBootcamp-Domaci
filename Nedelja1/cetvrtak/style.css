@@ -1,0 +1,117 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(189, 255, 189);
+}
+
+header {
+  background-color: rgb(183, 201, 185);
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px 5px 5px 5px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px;
+}
+
+nav li {
+  display: inline-block;
+  background-color: rgb(163, 255, 135);
+  padding: 5px 5px 0px 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgb(146, 146, 146);
+  color: #2e3436;
+}
+
+form {
+  margin: 50px auto;
+  padding: 5px 0;
+  width: 360px;
+  background-color: rgb(93, 196, 61);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(146, 146, 146);
+}
+
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  color: #2e3436;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  height: 34px;
+}
+
+.input {
+  margin: 5px auto;
+}
+
+.sub {
+  margin: 0 auto 5px auto;
+  width: 20%;
+}
+
+[type=submit] {
+  background-color: rgb(163, 255, 135);
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+table {
+  border: solid 1px rgb(146, 146, 146);
+  margin: 50px auto;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 10px rgb(146, 146, 146);
+}
+
+table caption {
+  border: solid 1px rgb(146, 146, 146);
+  border-bottom: none;
+}
+
+th {
+  font-weight: normal;
+}
+
+th, td {
+  border: solid 1px rgb(146, 146, 146);
+  padding: 5px;
+}
+
+thead tr {
+  background-color: rgb(93, 196, 61);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(192, 192, 192);
+}
+
+tbody tr:hover {
+  background-color: rgb(146, 146, 146);
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+}
