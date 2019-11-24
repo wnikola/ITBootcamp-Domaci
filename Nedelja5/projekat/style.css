@@ -1,0 +1,119 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: auto;
+}
+
+#balance {
+  text-align: center;
+  background-image: url("./particles.png");
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#balance-cont {
+  background-color: white;
+  grid-column: 2 / 3;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+
+/* #balance div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  padding-top: 10px;
+  grid-column: 2 / 3;
+} */
+
+h1 {
+  font-weight: normal;
+  margin: 10px;
+}
+
+.ePerc {
+  margin-left: 2%;
+}
+
+
+#mBalance {
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+#mIncome {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#mExpenses {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nmincome {
+  margin-left: 5%;
+}
+
+.nmexpenses {
+  margin-left: 5%;
+}
+
+#form {
+  text-align: center;
+  /* background: rgb(240, 240, 240); */
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+select, input {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#transactions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+#income {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-column: 1 / 2;
+}
+
+#income h5 {
+  grid-column: 1 / 3;
+}
+
+.trans-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+  margin: 5px;
+}
+
+.desc {
+  grid-column: 1 / 2;
+}
+
+.amount {
+  grid-column: 2 / 3;
+}
+
+.perc {
+  grid-column: 3 / 4;
+}
+
+#expenses {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-column: 2 / 3;
+}

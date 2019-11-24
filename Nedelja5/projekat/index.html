@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Projekat</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.png">
+</head>
+
+<body>
+  <section id="balance">
+    <div id="balance-cont">
+      <h1>Dostupan budzet u novembru 2019:</h1>
+      <div>
+        <p id="mBalance">1231</p>
+      </div>
+      <div id="mIncome">
+        <span>PRIHOD</span>
+      </div>
+      <div id="mExpenses">
+        <span>RASHOD</span>
+      </div>
+    </div>
+  </section>
+  <section id="form">
+    <select name="type" id="type">
+      <option value="income">Prihod</option>
+      <option value="expense">Rashod</option>
+    </select>
+    <input type="text" required id="desc" placeholder="Opis">
+    <input type="text" required id="amount" placeholder="Iznos">
+    <input type="submit" value="Dodaj" id="add-btn">
+  </section>
+  <section id="transactions">
+    <div id="income">
+      <h4>PRIHODI</h5>
+    </div>
+    <div id="expenses">
+      <h4>RASHODI</h5>
+    </div>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
+</html>
