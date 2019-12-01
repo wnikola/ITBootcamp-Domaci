@@ -9,7 +9,11 @@ loginBtn.addEventListener('click', () => {
   fetch('./korisnici.json')
     .then(res => res.json())
     .then(data => {
-      if (data.find(el => el.username === userTxt.value) === undefined) return alert('User not found');
+      if (data.find(el => el.username === userTxt.value) === undefined) {
+        alert('User not found');
+        usrErr.style.display = 'none';
+        return;
+      };
       data.forEach(el => {
         if (el.username === userTxt.value && el.password === passTxt.value) {
           alert('Logged in');

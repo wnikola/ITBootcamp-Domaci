@@ -1,3 +1,7 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 section {
   padding: 15em;
 }
@@ -7,6 +11,20 @@ input {
   margin: auto;
   margin-bottom: 10px;
   text-align: center;
+  border-radius: 5px;
+  border: solid 1px;
+  height: 34px;
+}
+
+[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #usr-err {
