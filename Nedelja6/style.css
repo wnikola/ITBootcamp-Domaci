@@ -1,0 +1,18 @@
+section {
+  padding: 15em;
+}
+
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#usr-err {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: red;
+}
