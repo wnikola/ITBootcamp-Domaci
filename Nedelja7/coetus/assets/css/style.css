@@ -1,0 +1,56 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.message-list {
+  margin: auto;
+  height: 80vh;
+  width: 45vw;
+  overflow: scroll;
+}
+
+input {
+  border-radius: 5px;
+  border: solid 1px;
+  height: 34px;
+  margin: 5px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.form {
+  grid-column: 1 / 2;
+  margin-left: 1.6vw;
+}
+
+#message-list {
+  grid-row: 2 / 3;
+}
+
+#my-messages {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#mm-btn {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin: auto;
+  margin-left: 5px;
+  width: max-content;
+}
